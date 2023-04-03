@@ -9,4 +9,6 @@ To compile the project it is necesary to run the next commands to get de node-mo
 In the new package.json add a new script 
 > "start": "lite-server"
 
-Then 
+Then run the next commands to compile the whole project in watch mode
+> - npm start
+> - tsc -w (in another terminal)
